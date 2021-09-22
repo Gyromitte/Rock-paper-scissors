@@ -61,7 +61,6 @@ function playRound(fixPlayerChoice, computerChoice){
 function game(){
     for (i = 0; i < 5; i++){
         //Ask player their choice
-        let playerChoice = prompt("Write your choice: ");
         let fixPlayerChoice = playerChoice.toLowerCase();
         //Assign computer choice to a variable
         computerChoice = computerPlay();
