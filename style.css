@@ -59,16 +59,48 @@ h1{
     width: 200px;
     height: 200px;
 }
-.options-box:hover{
-    background: #A7A5C6;
-
+#rock-box:hover{
+    width: 210px;
+    height: 210px;
 }
+#paper-box:hover{
+    width: 210px;
+    height: 210px;
+}
+#scissors-box:hover{
+    width: 210px;
+    height: 210px;
+}
+
 .options{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-
+#rock-box{
+    background: #6D8A96;
+    border: 5px solid #66CED6;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+#paper-box{
+    background: #6D8A96;
+    border: 5px solid #66CED6;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+#scissors-box{
+    background: #6D8A96;
+    border: 5px solid #66CED6;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
 
 
 
